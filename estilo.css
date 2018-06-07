@@ -1,3 +1,99 @@
 body {
+    max-width: 600px;
+    margin: 60px auto 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+h2 {
+    border-top: solid 5px lightgray;
+    margin-top: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 span {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: grey;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+p{
+    color: #666;
+}
+
+#primeiro{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.azul{
+    color: blue
+}
+
+[nome=menor]{
+    border: dotted 1px black;
+}
+
+footer{
+    margin-bottom: 100px;
+}
+
+ol{
     margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+li{
+    background-color: grey;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:visited{
+    color: black;
+}
+
+li a:hover{
+    color: green;
+    font-size: 18px;
+}
+
+.final{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin: auto 15px;
+}
+
+.final:nth-child(1){
+    background-color: #3548f3;
+}
+
+.final:nth-child(2){
+    background-color: #3548f3;
+}
+
+.final:nth-child(3){
+    background-color: #3548f3;
+}
+
+.final:nth-child(4){
+    background-color: #3548f3;
+}
+
+.final:nth-child(5){
+    background-color: #3548f3;
 }
